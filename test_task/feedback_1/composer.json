@@ -1,0 +1,21 @@
+{
+  "name": "feedback/package_feedback",
+  "description": "feedback",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alexandr Karasev",
+      "email": "07alks70@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-mbstring": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Order\\CreateOrder\\": "Order/"
+    }
+  }
+}
